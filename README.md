@@ -10,6 +10,12 @@ A visual Directed Acyclic Graph (DAG) editor built using [React Flow](https://re
 
 ---
 
+### 🚀 Live Demo
+
+👉 **Try it live on Vercel**: [https://pipeline-editor-two.vercel.app/](https://pipeline-editor-two.vercel.app/)
+
+---
+
 ## ✨ Features
 
 - **Custom Nodes**: Nodes with editable labels and custom visuals  
