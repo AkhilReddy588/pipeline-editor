@@ -25,6 +25,6 @@ A visual Directed Acyclic Graph (DAG) editor built using [React Flow](https://re
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/your-dag-editor-repo.git
+git clone https://github.com/AkhilReddy588/pipeline-editor.git
 cd your-dag-editor-repo
 npm install
