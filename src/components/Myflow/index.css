@@ -1,0 +1,153 @@
+.page-container{
+    padding-bottom: 40px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.modal-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.custom-node {
+  background: #fff;
+  border: 2px solid #1a192b;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  min-width: 50px;
+}
+
+.add-btn{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(200, 217, 233);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.undo-btn{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.delete-btn{
+    background-color: lightcoral;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.layout-btn{
+    background-color: rgb(72, 80, 84);
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.graph-board{
+    border: 5px solid rgb(63, 62, 62);
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 70vh;
+    width: 90%;
+    
+}
+
+.graph-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-flow__node.selected {
+  border: 2px solid green;
+  box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.5);
+  border-radius: 4px;
+}
+
+.status-heading{
+    line-height: 5px;
+}
+
+.dag-status {
+  margin-left: 20px;
+  background-color: antiquewhite;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+.valid {
+  color: green;
+  line-height: 10px;
+}
+.invalid {
+  color: red;
+}
+.invalid ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
